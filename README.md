@@ -24,11 +24,14 @@ If all processes can finish, the system is safe, and the program outputs a safe 
 If no remaining process can run with available resources, the system is unsafe, potentially leading to a deadlock.
 
 ✔️ Objective of the Program
-	•	Read a set of processes from data.txt, including allocation and maximum demand vectors.
-	•	Read the system’s available resources.
-	•	Determine:
-		  1. Whether the system is currently in a safe or unsafe state.
-		  2. If safe, produce the safe sequence of process execution.
+
+1.	Read a set of processes from data.txt, including allocation and maximum demand vectors.
+2.	Read the system’s available resources.
+3.	Determine:
+	
+	a. Whether the system is currently in a safe or unsafe state.
+
+	b. If safe, produce the safe sequence of process execution.
 
 Answer to assignment question : Yes the system is in a safe state. The sequence is P3->P4->P1->P2->P0
 
