@@ -35,16 +35,12 @@ Answer to assignment question : Yes the system is in a safe state. The sequence 
 ▶️ Usage Instructions
 1. File Requirements (data.txt)
 
-Your data.txt file should contain:
-	•	One line per process:
-  ```
-    A_alloc B_alloc C_alloc | A_max B_max C_max
-  ```
-	•	Final line: the available resources
-  ```
-    #availible resources
-    A_available B_available C_available
-  ```
+Your data.txt file should contain one line per process
+
+	A_alloc B_alloc C_alloc | A_max B_max C_max
+Final line should include available resources
+
+   	A_available B_available C_available
     
 Example data.txt:
 ```
