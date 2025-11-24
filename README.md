@@ -5,10 +5,15 @@ A C++ Implementation of Deadlock Avoidance
 📌 Program Description
 
 This program implements the Banker’s Algorithm, a deadlock avoidance algorithm to determine whether a system is in a safe state given:
-	•	A set of processes
-	•	Their resource allocations
-	•	Their maximum possible demands
-	•	The system’s currently available resources
+
+•	A set of processes
+
+•	Their resource allocations
+
+•	Their maximum possible demands
+
+•	The system’s currently available resources
+
 
 🧠 Algorithm Overview
 
